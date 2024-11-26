@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pypotatoast"
+version = "0.1.0"
+description = "A simple library based on AST Python for optimizing and debugging source code"
+authors = ["alexeev-prog <alexeev.dev@mail.ru>"]
+license = "GNU LGPL 2.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+rich = "^13.9.4"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
